@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9AF2784A226640CA00BC162C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF27849226640CA00BC162C /* AppDelegate.swift */; };
-		9AF2784C226640CA00BC162C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF2784B226640CA00BC162C /* ViewController.swift */; };
+		9A74FBB9226DF72C008B22C6 /* WeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A74FBB8226DF72C008B22C6 /* WeekCell.xib */; };
+		9A74FBBB226E0409008B22C6 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A74FBBA226E0409008B22C6 /* WeatherData.swift */; };
+		9A74FBBF226E2F5F008B22C6 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A74FBBE226E2F5F008B22C6 /* OptionsViewController.swift */; };
+		9A77383C2268E76A00291F54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77383B2268E76A00291F54 /* AppDelegate.swift */; };
+		9A7738432268E78600291F54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7738412268E78600291F54 /* LaunchScreen.storyboard */; };
+		9A7738452268E79300291F54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7738442268E79200291F54 /* Assets.xcassets */; };
+		9A77384D2268E89500291F54 /* TodayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77384A2268E89500291F54 /* TodayCell.swift */; };
+		9A77384E2268E89500291F54 /* WeatherAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77384B2268E89500291F54 /* WeatherAppViewController.swift */; };
+		9A7738512268EE1A00291F54 /* TodayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7738502268EE1A00291F54 /* TodayCell.xib */; };
+		9A7738552268F47700291F54 /* WeekCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7738542268F47700291F54 /* WeekCell.swift */; };
 		9AF2784F226640CA00BC162C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF2784D226640CA00BC162C /* Main.storyboard */; };
-		9AF27851226640CA00BC162C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AF27850226640CA00BC162C /* Assets.xcassets */; };
-		9AF27854226640CA00BC162C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF27852226640CA00BC162C /* LaunchScreen.storyboard */; };
 		B99A8047FB628B823065A585 /* Pods_Project2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DDDE0FE74F1B8151BA038D /* Pods_Project2.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +25,18 @@
 		49DDDE0FE74F1B8151BA038D /* Pods_Project2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70734DBB8CD6ABA7B1C4FE80 /* Pods-Project2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.release.xcconfig"; path = "Target Support Files/Pods-Project2/Pods-Project2.release.xcconfig"; sourceTree = "<group>"; };
 		90867E440731906079CA241A /* Pods-Project2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project2.debug.xcconfig"; path = "Target Support Files/Pods-Project2/Pods-Project2.debug.xcconfig"; sourceTree = "<group>"; };
+		9A74FBB8226DF72C008B22C6 /* WeekCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeekCell.xib; sourceTree = "<group>"; };
+		9A74FBBA226E0409008B22C6 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		9A74FBBE226E2F5F008B22C6 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		9A77383B2268E76A00291F54 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A7738422268E78600291F54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7738442268E79200291F54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A77384A2268E89500291F54 /* TodayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayCell.swift; sourceTree = SOURCE_ROOT; };
+		9A77384B2268E89500291F54 /* WeatherAppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAppViewController.swift; sourceTree = SOURCE_ROOT; };
+		9A7738502268EE1A00291F54 /* TodayCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayCell.xib; sourceTree = SOURCE_ROOT; };
+		9A7738542268F47700291F54 /* WeekCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekCell.swift; sourceTree = SOURCE_ROOT; };
 		9AF27846226640CA00BC162C /* Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AF27849226640CA00BC162C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AF2784B226640CA00BC162C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AF2784E226640CA00BC162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9AF27850226640CA00BC162C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9AF27853226640CA00BC162C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AF27855226640CA00BC162C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,6 +52,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A7738302268BDD600291F54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A77383B2268E76A00291F54 /* AppDelegate.swift */,
+				9A7738412268E78600291F54 /* LaunchScreen.storyboard */,
+				9A7738442268E79200291F54 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		9AF2783D226640CA00BC162C = {
 			isa = PBXGroup;
 			children = (
@@ -61,11 +83,15 @@
 		9AF27848226640CA00BC162C /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
-				9AF27849226640CA00BC162C /* AppDelegate.swift */,
-				9AF2784B226640CA00BC162C /* ViewController.swift */,
+				9A74FBBE226E2F5F008B22C6 /* OptionsViewController.swift */,
+				9A77384B2268E89500291F54 /* WeatherAppViewController.swift */,
+				9A74FBBA226E0409008B22C6 /* WeatherData.swift */,
+				9A77384A2268E89500291F54 /* TodayCell.swift */,
+				9A7738542268F47700291F54 /* WeekCell.swift */,
 				9AF2784D226640CA00BC162C /* Main.storyboard */,
-				9AF27850226640CA00BC162C /* Assets.xcassets */,
-				9AF27852226640CA00BC162C /* LaunchScreen.storyboard */,
+				9A7738502268EE1A00291F54 /* TodayCell.xib */,
+				9A74FBB8226DF72C008B22C6 /* WeekCell.xib */,
+				9A7738302268BDD600291F54 /* Supporting Files */,
 				9AF27855226640CA00BC162C /* Info.plist */,
 			);
 			path = Project2;
@@ -85,7 +111,6 @@
 				90867E440731906079CA241A /* Pods-Project2.debug.xcconfig */,
 				70734DBB8CD6ABA7B1C4FE80 /* Pods-Project2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -100,6 +125,7 @@
 				9AF27842226640CA00BC162C /* Sources */,
 				9AF27843226640CA00BC162C /* Frameworks */,
 				9AF27844226640CA00BC162C /* Resources */,
+				791771D80989256C93B10C4F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,9 +174,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF27854226640CA00BC162C /* LaunchScreen.storyboard in Resources */,
-				9AF27851226640CA00BC162C /* Assets.xcassets in Resources */,
+				9A7738432268E78600291F54 /* LaunchScreen.storyboard in Resources */,
+				9A7738452268E79300291F54 /* Assets.xcassets in Resources */,
 				9AF2784F226640CA00BC162C /* Main.storyboard in Resources */,
+				9A7738512268EE1A00291F54 /* TodayCell.xib in Resources */,
+				9A74FBB9226DF72C008B22C6 /* WeekCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +207,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		791771D80989256C93B10C4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Project2/Pods-Project2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Project2/Pods-Project2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -186,28 +236,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AF2784C226640CA00BC162C /* ViewController.swift in Sources */,
-				9AF2784A226640CA00BC162C /* AppDelegate.swift in Sources */,
+				9A77383C2268E76A00291F54 /* AppDelegate.swift in Sources */,
+				9A74FBBB226E0409008B22C6 /* WeatherData.swift in Sources */,
+				9A7738552268F47700291F54 /* WeekCell.swift in Sources */,
+				9A74FBBF226E2F5F008B22C6 /* OptionsViewController.swift in Sources */,
+				9A77384E2268E89500291F54 /* WeatherAppViewController.swift in Sources */,
+				9A77384D2268E89500291F54 /* TodayCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		9A7738412268E78600291F54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7738422268E78600291F54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		9AF2784D226640CA00BC162C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9AF2784E226640CA00BC162C /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9AF27852226640CA00BC162C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9AF27853226640CA00BC162C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
